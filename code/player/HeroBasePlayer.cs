@@ -15,8 +15,8 @@ namespace HeroShooter
 			if(Controller == null) {Controller = new HeroController();}
 			Animator = new StandardPlayerAnimator();
 			Camera = new FirstPersonCamera();
-			var ViewModelEntity = new BaseViewModel();
-			ViewModelEntity.SetParent(this);
+			//var ViewModelEntity = new BaseViewModel();
+			//ViewModelEntity.SetParent(this);
 
 			
 

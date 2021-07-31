@@ -19,7 +19,7 @@ namespace HeroShooter
 				RootPanel.StyleSheet.Load( "/ui/HeroMenu.scss" );
 
 				RootPanel.SetTemplate("ui/base.html");
-				mainUI();
+				SelectorUI();
 			}
 		}
 		public void SelectorUI()

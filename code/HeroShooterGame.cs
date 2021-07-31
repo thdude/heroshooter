@@ -50,12 +50,13 @@ namespace HeroShooter
 		{
 			base.ClientJoined( client );
 
-			//var player = new PreSpawnPlayer();
-			var player = new runner();
+			var player = new PreSpawnPlayer();
+			//var player = new runner();
 			client.Pawn = player;
 
 			player.Respawn();
-		}/*
+		}
+		
 		public void SpawnPlayer( Client client, int Hero )
 		{
 			var player = new Player();
@@ -76,7 +77,7 @@ namespace HeroShooter
 			
 			client.Pawn = player;
 			player.Respawn();
-		}*/
+		}
 	}
 
 }

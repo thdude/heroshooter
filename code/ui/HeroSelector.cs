@@ -35,7 +35,9 @@ namespace HeroShooter
         }
         private void SpawnHero( int hero ) 
         {        
-            AddClass("lockCursor");          
+            (Local.Pawn as PreSpawnPlayer).Select(hero);
+            
+            AddClass("lockCursor");      
             var RootPanel = Local.Hud;
 
             RootPanel.DeleteChildren();
@@ -43,7 +45,7 @@ namespace HeroShooter
 			RootPanel.AddChild<KillFeed>();
 			RootPanel.AddChild<Scoreboard<ScoreboardEntry>>();
 			RootPanel.AddChild<Health>();
-            //(Local.Pawn as PreSpawnPlayer).Select(hero);
+            
         }
     }
 }

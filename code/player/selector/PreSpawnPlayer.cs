@@ -38,8 +38,8 @@ namespace HeroShooter
 				
 			}
 		}
-		//REMOVED UNTIL I FIGURe OUT WHY I CANT SPAWN PLAYERS
-		/*public void Select(int hero)
+		//REMOVED UNTIL I FIGURe OUT WHY I CANT SPAWN PLAYERS nvm keeping it so i can figure this out properly
+		public void Select(int hero)
 		{
 			if(IsServer)
 			{
@@ -49,6 +49,6 @@ namespace HeroShooter
 			}
 			
 		}
-		*/
+		
     }
 }
