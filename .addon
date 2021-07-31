@@ -1,0 +1,16 @@
+{
+    "name": "heroshooter",
+    "version": "0.001",
+    "sharedassets": "*.*",
+    "depends": [
+        "base",
+        "citizen"
+    ],
+    "gamemodes": [
+        {
+            "name": "heroshooter",
+            "title": "heroshooter",
+            "description": "My Balls is a balls octane top down balls shooter taking place in a my balls centered around the seedy California balls ring iconography."
+        }
+    ]
+}
